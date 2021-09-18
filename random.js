@@ -19,7 +19,7 @@ function standardDeviation(x, avg) {
 
 function loop() {
   let x = [];
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 100; i++) {
     x[i] = Math.random();
   }
   let avg = average(x);
