@@ -28,7 +28,7 @@ function loop() {
     min = sd;
   }
 
-  document.body.textContent = "標準偏差: " + min;
+  document.body.textContent = "Random deviation: " + min;
 }
 
 function main() {
